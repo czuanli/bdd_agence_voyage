@@ -64,6 +64,7 @@ create table Hotel(
 	idHotel int unsigned primary key auto_increment,
 	hotelName varchar(64) not null,
     addressHotel varchar(64) not null,
+    zipCode varchar(64) not null,
     cityHotel varchar(64) not null,
     countryHotel varchar(64) not null,
     phone varchar(64) not null,
