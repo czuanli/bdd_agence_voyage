@@ -6,7 +6,7 @@ SGBD : MySQL
 
 Contexte : Cours de base de données avancée 
 
-![Alt text](./schema_voyage.PNG)
+![Alt text](./modelisation.PNG)
 
 Documentation : https://docs.google.com/document/d/1ghTqJm3oYeZadJsgrBbenogH35kyLundEaOs4jKWNl8/edit?usp=sharing
 
