@@ -4,6 +4,8 @@ use layxoTravelAgency;
 create table Customer(
 	idCustomer int unsigned auto_increment,
     addressCustomer varchar(64) not null,
+    cityCustomer varchar(64) not null,
+    zipcodeCustomer varchar(64) not null,
     lastName varchar(64) not null,
     firstName varchar(64) not null,
     email varchar(64) not null,
