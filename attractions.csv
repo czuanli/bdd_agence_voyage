@@ -1,0 +1,101 @@
+date_start|date_end|fee|city|country|weather|travel_route|id_attraction
+2020-11-11 21:09:21|2021-09-04 18:35:19|14118|Cambridge|United Kingdom (Great Britain)|massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor|nec,|1
+2020-10-16 04:41:33|2021-01-03 05:43:45|8838|Brentwood|Myanmar|Proin vel nisl. Quisque fringilla euismod enim.|eu, eleifend|2
+2020-10-03 05:06:56|2022-01-25 04:49:59|13007|Istmina|South Sudan|libero mauris,|nunc sed libero. Proin sed turpis nec mauris|3
+2020-11-26 20:09:40|2021-02-09 08:56:11|6032|Saint-Pierre|United States|massa. Quisque porttitor eros nec|id sapien. Cras|4
+2020-08-21 15:33:21|2021-10-31 21:17:00|16971|Ethe|Brazil|neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris|Aliquam erat volutpat. Nulla dignissim.|5
+2020-08-26 17:02:25|2020-11-30 15:10:39|11241|Heredia|Antarctica|ornare. Fusce mollis. Duis sit amet diam eu|dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque|6
+2021-11-30 07:04:15|2021-05-23 18:54:44|16753|San Martino in Badia/St. Martin in Thurn|Cayman Islands|adipiscing lacus. Ut nec urna et arcu imperdiet|aliquet libero. Integer in magna. Phasellus|7
+2021-06-28 22:40:28|2020-05-14 17:20:19|9740|Garzón|Brazil|urna, nec luctus felis purus|Donec nibh. Quisque nonummy ipsum non|8
+2020-09-08 08:53:42|2022-01-14 15:07:36|10791|Benestare|Lebanon|dui, nec tempus mauris erat eget|mollis lectus pede et risus. Quisque libero lacus,|9
+2020-08-17 15:47:13|2021-11-26 01:38:45|14804|Freital|Papua New Guinea|neque non quam. Pellentesque habitant morbi|ut ipsum ac|10
+2021-12-30 09:22:41|2022-01-02 18:54:31|17517|Picton|Kuwait|pretium neque. Morbi quis urna. Nunc quis|magnis dis|11
+2021-06-30 11:03:44|2021-08-07 18:21:18|17859|Quinchao|Faroe Islands|enim non nisi. Aenean eget|ut, pharetra sed, hendrerit a, arcu. Sed et|12
+2022-03-16 21:05:59|2020-09-19 08:46:24|8401|Kharagpur|Ireland|augue eu tellus. Phasellus elit pede, malesuada|dolor elit, pellentesque a, facilisis|13
+2021-07-24 23:26:12|2021-03-31 18:16:12|14213|La Florida|New Caledonia|ut, pharetra sed, hendrerit a, arcu. Sed et|elit. Etiam laoreet, libero et tristique pellentesque, tellus sem|14
+2021-10-09 10:10:41|2020-08-13 00:09:33|19299|Riparbella|Mauritius|malesuada fames ac turpis egestas. Fusce aliquet|metus facilisis lorem tristique aliquet.|15
+2022-01-15 05:12:35|2020-05-10 07:25:19|6258|Stoke-on-Trent|El Salvador|tellus|Nullam ut nisi a odio semper cursus.|16
+2021-09-20 01:33:23|2020-08-18 08:56:32|19378|Guirsch|Canada|augue. Sed molestie.|Ut tincidunt vehicula risus. Nulla eget metus eu erat semper|17
+2021-12-14 20:38:26|2020-04-02 02:23:30|19842|Teno|Bahamas|sagittis augue, eu tempor erat neque|Nullam vitae diam. Proin dolor. Nulla|18
+2020-06-27 02:02:46|2021-11-04 23:31:49|5574|Bear|Kazakhstan|tincidunt vehicula risus. Nulla|convallis est, vitae sodales nisi magna sed dui. Fusce aliquam,|19
+2021-08-21 11:35:53|2022-01-06 02:50:13|9015|Dalcahue|Singapore|tellus non magna. Nam|Donec sollicitudin adipiscing|20
+2021-05-08 07:26:01|2021-07-11 23:58:35|19351|Fort Good Hope|United Arab Emirates|ut ipsum|condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing|21
+2021-07-22 09:39:56|2020-06-05 20:24:47|7679|Cambridge|Azerbaijan|fermentum metus. Aenean sed pede nec ante blandit|mauris erat eget ipsum. Suspendisse|22
+2021-02-02 18:28:44|2021-07-21 12:33:49|19608|San Jose|Cayman Islands|felis orci, adipiscing non, luctus sit|purus gravida sagittis. Duis gravida. Praesent eu nulla at|23
+2021-11-21 18:57:50|2021-11-21 17:32:31|16907|Pavlovsky Posad|Korea, North|risus. Nulla eget metus eu erat semper|eget nisi dictum augue malesuada malesuada.|24
+2020-08-23 20:14:41|2020-12-28 00:55:58|1462|Belvedere Ostrense|Ireland|velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer|mi, ac|25
+2020-10-13 10:27:22|2022-03-18 23:23:16|733|Pordenone|Kiribati|Pellentesque habitant|nulla. Integer vulputate,|26
+2021-12-05 09:47:05|2020-08-06 00:58:41|8137|Salamanca|Panama|Ut tincidunt orci quis lectus.|purus ac|27
+2021-05-24 17:28:02|2021-12-23 21:40:18|4654|Aurora|Myanmar|eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula.|blandit at,|28
+2021-08-26 07:37:06|2020-04-05 00:30:10|8613|Segovia|Malta|mus. Proin vel nisl.|non, lobortis quis, pede. Suspendisse|29
+2020-07-14 05:29:37|2021-03-01 23:33:02|14803|Ospedaletto d'Alpinolo|Micronesia|magna nec quam. Curabitur vel lectus. Cum sociis|ac turpis egestas. Aliquam fringilla cursus|30
+2021-03-18 14:42:20|2021-11-01 09:21:45|6050|Newport News|Vanuatu|feugiat nec, diam. Duis mi enim, condimentum eget,|eget, dictum placerat, augue. Sed|31
+2020-05-14 10:42:57|2021-03-01 04:15:53|1454|Elektrogorsk|Germany|pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi.|libero|32
+2021-05-04 18:14:56|2022-03-14 19:35:39|4829|Cochamó|Ecuador|nec tempus|sit amet, consectetuer adipiscing elit. Curabitur|33
+2022-02-27 22:11:22|2021-05-12 01:05:02|9474|Fort Wayne|Czech Republic|vel arcu. Curabitur ut odio vel est|molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas|34
+2020-04-03 03:48:55|2021-01-30 03:40:53|1897|Bilbo|Serbia|nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus|Fusce aliquet magna a neque. Nullam ut|35
+2022-03-15 15:04:48|2020-05-16 18:43:48|5692|Ivanteyevka|Vanuatu|turpis. In condimentum. Donec at arcu.|ante. Vivamus non lorem|36
+2021-03-15 20:31:43|2021-01-05 12:17:15|8552|Sasaram|Jersey|ut ipsum ac mi eleifend|est|37
+2021-05-30 15:01:32|2020-10-02 00:49:24|16535|Cabo de Hornos|Mauritania|nisi.|cursus in, hendrerit consectetuer, cursus|38
+2020-11-30 01:34:55|2021-05-11 20:01:26|672|Ville-en-Hesbaye|Norway|posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse|convallis, ante lectus convallis est, vitae sodales|39
+2021-01-24 06:18:15|2021-06-17 21:13:06|8182|Koekelberg|Heard Island and Mcdonald Islands|mollis|eu arcu. Morbi sit amet massa.|40
+2021-09-06 17:08:06|2020-07-07 05:47:03|2785|Deline|Kyrgyzstan|imperdiet, erat nonummy ultricies ornare, elit elit|Donec consectetuer|41
+2020-11-09 10:27:54|2020-09-08 22:46:20|2623|Tynda|Saint Helena, Ascension and Tristan da Cunha|felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus.|in consequat enim diam vel arcu. Curabitur|42
+2021-01-12 05:04:43|2021-11-21 09:51:06|5722|Harderwijk|Sierra Leone|placerat, orci lacus vestibulum|amet luctus vulputate, nisi sem semper|43
+2021-06-04 20:32:55|2021-03-09 11:23:56|10619|Beauwelz|Holy See (Vatican City State)|Sed pharetra, felis eget|Quisque imperdiet, erat nonummy|44
+2021-11-15 05:10:39|2022-01-01 02:50:32|12491|Bharatpur|Cook Islands|imperdiet,|commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur|45
+2021-11-13 21:00:41|2022-02-17 21:41:11|5852|Xhoris|Bahrain|ac, feugiat|Fusce dolor quam, elementum at, egestas|46
+2021-03-27 03:22:29|2021-07-13 01:19:47|18538|Collipulli|Faroe Islands|arcu et|ut, molestie in, tempus eu, ligula.|47
+2020-11-12 18:06:52|2022-03-18 08:50:48|15187|Colobraro|British Indian Ocean Territory|imperdiet nec, leo. Morbi|et,|48
+2020-07-11 06:39:04|2021-07-12 18:05:40|16780|Teno|Mongolia|lorem eu metus.|pede,|49
+2020-06-08 05:34:40|2021-11-19 04:19:22|5200|Villa del Rosario|Congo (Brazzaville)|lacus. Aliquam rutrum lorem ac risus.|Nunc lectus pede, ultrices a, auctor|50
+2020-09-28 01:06:50|2021-03-05 10:51:35|13786|Poznań|Saint Barthélemy|urna suscipit nonummy.|Proin nisl sem, consequat|51
+2021-09-14 16:54:18|2020-03-26 23:51:21|12457|Kolomna|Spain|erat volutpat. Nulla facilisis. Suspendisse|lorem, luctus ut, pellentesque eget, dictum placerat, augue.|52
+2021-05-15 22:47:53|2020-04-14 09:47:09|5854|Tarsia|Turkmenistan|molestie.|fames ac turpis egestas. Fusce|53
+2020-08-26 02:37:55|2021-07-23 16:37:32|6208|Huntsville|Svalbard and Jan Mayen Islands|consectetuer adipiscing|eros. Proin ultrices.|54
+2020-04-12 13:18:44|2021-10-24 10:53:37|11721|Westport|Honduras|nec, leo. Morbi neque tellus, imperdiet non, vestibulum|lorem ipsum sodales purus, in molestie|55
+2021-06-28 05:58:42|2020-04-13 20:36:42|240|Inverbervie|French Polynesia|magna. Duis dignissim tempor arcu. Vestibulum ut eros|risus. Duis a mi fringilla|56
+2020-04-17 18:52:17|2020-11-11 18:19:01|19397|Alajuela|Turkey|mauris, aliquam|diam eu dolor egestas|57
+2021-01-22 12:11:20|2020-06-24 00:26:51|13021|Oevel|Bouvet Island|gravida sagittis. Duis gravida. Praesent eu nulla at sem|scelerisque neque sed sem egestas|58
+2020-08-06 07:40:23|2020-10-30 07:33:39|5463|Sobral|Mayotte|a ultricies adipiscing, enim|vitae dolor. Donec fringilla.|59
+2020-04-01 02:55:32|2020-05-26 15:27:27|12665|Nemoli|Hungary|morbi tristique senectus|nunc risus varius|60
+2021-06-06 09:50:02|2021-02-12 05:44:18|5234|Kolkata|Mozambique|fringilla euismod enim. Etiam gravida|arcu. Sed et libero. Proin|61
+2020-10-31 09:17:47|2021-04-10 19:22:15|863|Trier|Uzbekistan|quam, elementum at,|dolor egestas rhoncus. Proin nisl sem,|62
+2021-11-05 03:46:07|2020-11-23 06:10:11|19749|Ulhasnagar|Montenegro|velit. Quisque varius. Nam porttitor scelerisque|lacus. Etiam bibendum fermentum|63
+2021-03-08 05:25:48|2021-03-02 23:32:08|9528|Pescopagano|Bonaire, Sint Eustatius and Saba|pede ac urna. Ut|Suspendisse aliquet, sem ut|64
+2021-04-01 08:19:11|2020-06-11 17:01:50|6989|Provost|Turkey|erat volutpat. Nulla|quam. Curabitur vel lectus. Cum sociis natoque|65
+2020-07-22 12:17:09|2021-10-13 18:07:39|6023|Lafayette|Saint Helena, Ascension and Tristan da Cunha|id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis|pellentesque. Sed dictum. Proin eget odio.|66
+2020-05-11 03:41:05|2021-05-14 11:13:03|19728|Colwood|Oman|congue turpis.|Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor.|67
+2021-01-05 09:39:45|2021-11-02 03:30:40|3331|Erpion|Uganda|gravida mauris ut mi. Duis risus|elit pede, malesuada vel, venenatis vel, faucibus|68
+2020-11-30 09:05:25|2021-07-18 13:49:06|15578|Hinckley|Niue|lacinia. Sed congue, elit sed consequat auctor, nunc nulla|enim.|69
+2022-01-04 05:03:27|2021-07-22 10:28:57|1245|Pelarco|Åland Islands|Nullam scelerisque|tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus|70
+2020-08-25 09:35:10|2021-12-23 03:37:28|8951|Retford|Ghana|ligula eu enim. Etiam imperdiet dictum magna. Ut|eu sem. Pellentesque|71
+2020-08-03 23:40:19|2020-05-24 10:45:24|10814|Juseret|Saint Kitts and Nevis|sodales elit erat vitae risus. Duis a mi fringilla mi|pharetra, felis eget|72
+2022-03-14 08:38:59|2021-10-06 09:03:47|12394|Magadan|United Kingdom (Great Britain)|eu, euismod ac, fermentum vel, mauris. Integer sem|porttitor scelerisque neque. Nullam|73
+2021-07-13 18:05:02|2020-07-24 23:22:11|403|Santa Marta|Seychelles|blandit at, nisi. Cum sociis natoque penatibus|ac nulla. In tincidunt congue turpis. In condimentum. Donec at|74
+2020-07-20 03:32:26|2021-08-07 08:52:12|19195|Sulzbach|Russian Federation|fringilla cursus purus. Nullam scelerisque neque|facilisis lorem tristique aliquet. Phasellus fermentum|75
+2021-05-21 16:44:35|2021-11-05 02:17:25|13691|Clermont-Ferrand|Solomon Islands|risus. In mi pede, nonummy ut, molestie in,|enim mi tempor lorem,|76
+2021-01-03 22:28:19|2020-11-19 00:10:10|4343|Khushab|Mauritius|ullamcorper. Duis cursus, diam at pretium aliquet,|enim. Sed|77
+2021-05-09 23:42:48|2021-12-23 16:35:07|13551|Santa Marina|Kenya|volutpat ornare, facilisis eget, ipsum. Donec sollicitudin|ac turpis egestas.|78
+2020-07-18 00:21:45|2020-07-14 09:14:05|17297|Blind River|Mali|accumsan sed,|at sem|79
+2020-11-04 17:18:25|2020-09-13 14:28:48|18621|Malartic|Angola|feugiat metus|ipsum. Phasellus vitae mauris sit amet lorem semper|80
+2021-02-04 07:52:02|2020-06-07 10:30:02|4284|Lachine|Korea, North|Sed|magna, malesuada vel, convallis in,|81
+2020-07-13 01:05:05|2020-06-05 16:53:11|14859|Iseyin|San Marino|Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet,|enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin|82
+2020-06-19 23:45:19|2022-01-05 07:07:04|1779|Ponoka|Central African Republic|neque non|at pede. Cras vulputate velit eu sem. Pellentesque|83
+2021-08-26 03:03:36|2020-10-15 19:29:19|8024|Santipur|New Zealand|Sed diam lorem, auctor|lorem, sit amet|84
+2020-04-18 18:12:09|2020-12-01 08:18:03|3608|Tullibody|Finland|ut ipsum|rhoncus. Proin nisl sem, consequat nec, mollis vitae,|85
+2020-05-30 06:52:59|2020-09-04 03:30:59|17663|Częstochowa|Myanmar|senectus et netus et malesuada|pharetra sed,|86
+2021-08-03 11:06:26|2021-06-02 15:48:39|14342|Bayeux|Kazakhstan|quam. Pellentesque habitant morbi tristique senectus et netus et|lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis|87
+2021-01-14 09:34:17|2020-06-14 16:27:58|6971|Oristano|Kenya|at, egestas a, scelerisque|In faucibus. Morbi vehicula. Pellentesque tincidunt tempus|88
+2020-04-24 15:40:33|2021-07-20 13:51:24|9850|Louvain-la-Neuve|Ethiopia|sed consequat auctor, nunc nulla vulputate|a|89
+2021-10-25 04:20:12|2021-09-28 08:56:51|15810|Neelum Valley|Czech Republic|ipsum. Donec sollicitudin|eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas|90
+2020-11-23 02:06:23|2022-01-02 16:31:53|7378|Portico e San Benedetto|Tajikistan|ligula. Nullam feugiat placerat velit. Quisque|risus odio,|91
+2020-07-22 11:40:50|2020-06-04 17:39:19|15437|Bunbury|Hungary|id, blandit at, nisi. Cum|Integer sem elit, pharetra ut, pharetra sed, hendrerit a,|92
+2021-12-24 23:45:22|2021-01-15 18:42:46|18104|Oyen|Netherlands|in|convallis in, cursus et,|93
+2021-10-28 07:43:37|2020-08-31 20:39:10|18027|Campofelice di Fitalia|Comoros|tellus eu augue porttitor interdum. Sed|Phasellus at augue id ante dictum cursus.|94
+2022-03-11 00:23:13|2020-04-21 02:02:49|14208|Kelowna|Bosnia and Herzegovina|nibh lacinia orci, consectetuer euismod est arcu|eleifend egestas. Sed pharetra,|95
+2021-01-28 21:02:35|2020-07-21 00:25:36|1939|Altamura|Cook Islands|ligula consectetuer rhoncus. Nullam velit dui, semper et,|Cras eget nisi dictum augue malesuada malesuada. Integer id magna|96
+2020-09-07 16:03:03|2021-04-09 18:58:25|9467|Suxy|Macao|pharetra. Nam ac nulla. In tincidunt congue turpis. In|dolor sit amet, consectetuer adipiscing elit.|97
+2021-12-04 22:54:41|2020-11-02 20:15:16|10229|Geraldton-Greenough|Bonaire, Sint Eustatius and Saba|accumsan convallis, ante lectus|sem ut dolor dapibus gravida. Aliquam|98
+2021-05-23 14:49:53|2020-08-23 21:21:10|1420|Aiello Calabro|Palau|eu eros.|eu, odio. Phasellus at augue id ante dictum|99
+2021-05-11 06:12:31|2021-04-06 02:36:33|19311|San Giacomo degli Schiavoni|Switzerland|sit amet, faucibus ut, nulla.|nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis|100
