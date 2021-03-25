@@ -52,6 +52,12 @@ create table if not exists booking_attraction(
 		references attraction(id_attraction)
 );
 
+load data infile '../../../../ETUDES/MIAGE_L3/S6/bdd_avancee/project/bdd_agence_voyage/attractions.csv'
+into table attraction
+fields terminated by '|'
+lines terminated by '\r\n'
+ignore 1 rows;
+
 delimiter $$
 
 create procedure GetAttractions()
@@ -72,19 +78,30 @@ delimiter ;
 
 call GetAttractions();
 
+
 delimiter $$
 
 create procedure GetAttractionLevel(
-	in pFee float(2),
+	in attraction_id float(2),
     out pAttractionLevel varchar(20))
 begin
-	if pFee > 1000 then
+	DECLARE feeLevel DECIMAL(10,2) DEFAULT 0;
+
+    SELECT fee 
+    INTO feeLevel
+    FROM attraction
+    WHERE id_attraction = attraction_id;
+    
+	if feeLevel > 1000 then
 		set pAttractionLevel = 'VIP';
 	end if;
 end$$
+
 delimiter ;
 
-call GetAttractionLevel();
+call GetAttractionLevel(1, @level);
+
+select @level;
 /*
 show tables;
 
