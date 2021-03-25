@@ -378,7 +378,7 @@ DELIMITER ;
 -- ----------------------------
 -- Création du trigger pour les changements de salaire 
 -- ----------------------------
-DELIMITER $$
+DELIMITER $
 
 CREATE PROCEDURE GetNBStaff()
 BEGIN 
@@ -389,4 +389,45 @@ FROM Staff;
 SELECT totalnbstaff;
 END$$
 
-DELIMITER $$;
+DELIMITER $;
+
+-- ----------------------------
+-- Procédure GetPaidStaff() : ce que l’on dépense pour tous les salaire
+-- ----------------------------
+DELIMITER $
+
+CREATE PROCEDURE GetNBStaff()
+BEGIN 
+DECLARE totalsalary INT DEFAULT 0;
+SELECT SUM(salary)
+INTO totalsalary
+FROM Staff;
+SELECT totalsalary;
+END$$
+
+DELIMITER $;
+-- ----------------------------
+-- Création d’une autre table pour sauvegarder les changements de nom, prénom
+-- ----------------------------
+CREATE TABLE staff_name_update(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    salary INT NOT NULL,
+    lastname VARCHAR(64) NOT NULL,
+    changedat DATETIME DEFAULT NULL,
+    action VARCHAR(50) DEFAULT NULL
+     );
+
+-- ----------------------------
+-- Création d’une autre table pour sauvegarder les changements de nom, prénom
+-- ----------------------------
+DELIMITER $
+CREATE TRIGGER before_staff_salary_update
+    BEFORE UPDATE ON Staff
+    FOR EACH ROW
+    INSERT INTO staff_salary_update
+    SET ACTION = 'update',
+    salary = OLD.salary,
+    lastname = OLD.lastname,
+    changedat = NOW();
+END$$
+DELIMITER ;
