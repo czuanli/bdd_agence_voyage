@@ -1,7 +1,7 @@
 /* 1 - Quel employé s’occupe de la réservation 1? */
 Select id_staff, lastname, firstname
 From staff Natural Join booking
-Where id_booling = 1;
+Where id_booking = 1;
 
 /*2 - Quel est le chiffre d’affaires total de l’agence de voyages en Mars?*/
 Select Sum(total_fee)
