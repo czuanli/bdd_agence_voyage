@@ -65,7 +65,7 @@ DELIMITER ;
 
 
 -- ----------------------------
--- Création du trigger pour le calcul du montant total des réservations des clients
+-- Création de la procédure pour le calcul du montant total des réservations des clients
 -- ----------------------------
 DELIMITER $$
 
@@ -103,7 +103,7 @@ GROUP BY customer.customer;
 -- Création d'un index membership 
 -- ----------------------------
 
-CREATE INDEX membership ON client (membership);
+CREATE INDEX membership ON customer (membership);
 
 
 -- ----------------------------
