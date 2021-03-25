@@ -1,6 +1,7 @@
 use layxoTravelAgency
 
 CREATE TABLE if not exists room_old (
+  `id_room_history`int NOT NULL AUTO_INCREMENT,
   `id_room_old` int NOT NULL,
   `id_hotel_old` varchar(255) NOT NULL,
   `room_number_old` int NOT NULL,
@@ -8,7 +9,7 @@ CREATE TABLE if not exists room_old (
   `room_type_old` varchar(255) NOT NULL,
   `price_old` float(10,2) DEFAULT NULL,
   `changed_at` DATETIME DEFAULT NULL,
-  PRIMARY KEY (`id_room_old`)
+  PRIMARY KEY (`id_room_history`)
   
 ) ENGINE=InnoDB;
 
@@ -34,6 +35,12 @@ DELIMITER $$;
 
 update room
 SET name_room = "LayxosExclusiveRoom"
+WHERE id_room = 1 and id_hotel = 1;
+update room
+SET name_room = "LayxosExclusiveRoomSecondTry"
+WHERE id_room = 1 and id_hotel = 1;
+update room
+SET name_room = "LayxosExclusiveRoomThirdTry"
 WHERE id_room = 1 and id_hotel = 1;
 
 select * from room_old;
