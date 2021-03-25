@@ -40,28 +40,34 @@ ALTER TABLE customer ADD COLUMN membership VARCHAR(50);
 -- Création de la procedure pour le programme de fidelité
 -- ----------------------------
 DELIMITER $$
-
-CREATE PROCEDURE calcul_membership(IN par_id_customer INT, OUT par_membership VARCHAR(50))
+CREATE PROCEDURE calcul_membership(IN id_customer INT, OUT membership VARCHAR(50))
 
 BEGIN
-SELECT COUNT(booking.id_booking) count from customer
+
+
+SELECT COUNT(booking.id_booking)
+INTO @count 
+from customer
 INNER JOIN booking ON customer.id_customer=booking.id_customer
 GROUP BY customer.id_customer;
 
-IF count >= 5 AND count < 10 THEN
-	SET par_membership = 'Silver';
-ELSE IF count >= 10 AND count < 30 THEN 
-     SET par_membership='Gold';
-ELSE IF count >= 30 THEN 
-     SET par_membership='Platinum';
-ELSE SET par_membership= 'Novice';
+IF @count  >= 5 AND count < 10 THEN
+	SET membership = 'Silver';
+ELSEIF @count  >= 10 AND count < 30 THEN 
+     SET membership='Gold';
+ELSEIF @count  >= 30 THEN 
+     SET membership='Platinum';
+ELSE 
+	SET membership= 'Novice';
 
-ENDIF;
+END IF;
 
 
 END $$
 
 DELIMITER ;
+
+
 
 
 -- ----------------------------
