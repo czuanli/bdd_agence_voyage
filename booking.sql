@@ -81,7 +81,7 @@ Select id_booking
 From booking
 Where total_fee < 500;
 
-/*Le trigger si on supprime un client, ça va supprimer les booking liés à ce client*/
+/*14 - Le trigger si on supprime un client, ça va supprimer les booking liés à ce client*/
 DELIMITER $
 
     create trigger tri_custDelete after delete
