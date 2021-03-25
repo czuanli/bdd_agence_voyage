@@ -80,3 +80,15 @@ Where id_customer = 2;
 Select id_booking
 From booking
 Where total_fee < 500;
+
+/*14 - Le trigger si on supprime un client, ça va supprimer les booking liés à ce client*/
+DELIMITER $
+
+    create trigger tri_custDelete after delete
+    on customer for each row
+    begin
+    declare c VARCHAR(20) DEFAULT NULL;
+    update `booking` set  `id_customer`= c where id_customer = OLD.id_customer;
+
+end$
+DELIMITER ;
