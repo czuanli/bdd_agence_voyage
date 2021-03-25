@@ -52,11 +52,50 @@ create table if not exists booking_attraction(
 		references attraction(id_attraction)
 );
 
+create table if not exists attraction_changes(
+    date_start date,
+    date_end date,
+    changedat date,
+    action VARCHAR(50) DEFAULT NULL,
+    id_attraction int unsigned primary key auto_increment
+);
+
 load data infile '../../../../ETUDES/MIAGE_L3/S6/bdd_avancee/project/bdd_agence_voyage/attractions.csv'
 into table attraction
 fields terminated by '|'
 lines terminated by '\r\n'
 ignore 1 rows;
+
+select *  from attraction;
+
+DELIMITER $$
+
+CREATE TRIGGER after_attraction_update
+AFTER UPDATE
+ON attraction FOR EACH ROW
+BEGIN
+	INSERT INTO attraction_changes
+	SET action = 'update',
+		id_attraction = OLD.id_attraction,
+		date_start = OLD.date_start,
+        date_end = OLD.date_end,
+		changedat = NOW();
+END$$
+
+
+UPDATE attraction 
+SET 
+    travel_route = "sidjhfihiu"
+WHERE
+    id_attraction = 1;
+
+
+select *  from attraction_changes;
+
+/*
+DELIMITER ;
+
+
 
 delimiter $$
 
@@ -102,7 +141,7 @@ delimiter ;
 call GetAttractionLevel(1, @level);
 
 select @level;
-/*
+
 show tables;
 
 select * from attraction where weather = "rainy";
@@ -111,3 +150,5 @@ select id_attraction, travel_route from attraction where id_attraction = 1;
 
 show indexes from attraction;
 */
+
+
