@@ -35,6 +35,7 @@ WHERE id_hotel = 1;
 update hotel
 SET name_hotel = "LayxosProprietySecondTry"
 WHERE id_hotel = 1;
+update hotel
 SET name_hotel = "LayxosProprietyThirdTry"
 WHERE id_hotel = 1;
 
